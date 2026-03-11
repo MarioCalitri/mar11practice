@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #333;
+    color: #eee;
+    font-size: 1.6em;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    padding: 50px;
+    background: url('../assets/images/headerBkg2.png');
+}
+
+#logo {
+    width: 160px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background: #e5e5e5;
+    text-align: center;
+    padding-top: 17px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #222;
+    margin: 0 23px;
+}
+
+a:hover {
+    color: #00f;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background: #aaa;
+}
+
+#about {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, #6e48aa, #9d50bb);
+    padding: 50px 100px;
+    /* t&b l&r */
+}
+
+#skills {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, #056b3b, #516b8b);
+    padding: 50px 100px;
+    /* t&b l&r */
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+#contact {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, #0a2a88, #59cde9);
+    padding: 50px 100px;
+    /* t&b l&r */
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: #777;
+    margin-bottom: 100px;
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-size: .9em;
+    border-top: 1px solid #222;
+}
